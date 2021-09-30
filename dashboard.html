@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Managers Dashboard</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"  />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <script>
+        window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery-3.2.1.min.js"%3E%3C/script%3E'))
+    </script>
+    <script type="text/javascript" src="../Resources/Common/JS/dx.all.js"></script>
+    <script type="text/javascript" src="../Resources/Common/JS/moment.min.js"></script>
+    <script type="text/javascript" src="../Resources/Common/JS/polyfill.min.js"></script>
+    <script type="text/javascript" src="../Resources/Common/JS/exceljs.min.js"></script>
+    <script type="text/javascript" src="../Resources/Common/JS/FileSaver.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Resources/Common/CSS/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/Common/CSS/dx.light.css" />
+    <link rel="stylesheet" type="text/css" href="../Resources/Dashboard/css/dashboard.css?v=5" />
+    <script type="text/javascript" src="../Resources/Dashboard/js/dashboard.js?v=4"></script>
+</head>
+
+<body class="dx-viewport">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 no-padding">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner"></div>
+                    <!-- End Carousel Inner -->
+                    <ul class="nav nav-pills nav-justified"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 10px;">
+            <div class="col-md-8 no-padding" style="background-color: rgba(51, 102, 153, 1);" id="home-desc">
+                <div class="myApps-Description">
+                </div>
+            </div>
+            <div class="col-md-4  no-padding" style="background-color: #ddd6e7;">
+                <div class="myApps-Milestones">
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin: 0px;">
+            <div class="col-sm-12" style="background: white;">
+                <nav style="padding: 0px 15px;">
+                    <div class="nav nav-tabs nav-fill  col-md-4" style="padding: 0;" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-Privilege-tab" data-toggle="tab"
+                            href="#nav-Privilege" role="tab" aria-controls="nav-Privilege"
+                            aria-selected="true">Privilege Users</a>
+                        <a class="nav-item nav-link" id="nav-Standard-tab" data-toggle="tab" href="#nav-Standard"
+                            role="tab" aria-controls="nav-Standard" aria-selected="false">Standard users</a>
+                    </div>
+                </nav>
+                <div class="tab-content px-sm-0" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-Privilege" role="tabpanel"
+                        aria-labelledby="nav-Privilege-tab">
+                        <div class="col-md-12">
+                            <div class="demo-container">
+                                <div id="grid">
+                                    <div id="privilege"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-Standard" role="tabpanel" aria-labelledby="nav-Standard-tab">
+                        <div class="col-md-12">
+                            <div class="demo-container">
+                                <div id="grid">
+                                    <div id="standard"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
