@@ -1,0 +1,350 @@
+.options {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(191, 191, 191, 0.15);
+    position: relative;
+}
+
+.caption {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.option {
+    margin-top: 10px;
+}
+
+.checkboxes-mode {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.option>.dx-selectbox {
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.option>span {
+    margin-right: 10px;
+}
+
+.status-icon {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+div[id^="privilege"], div[id^="standard"] {
+    max-width: 100% !important;
+}
+
+div[id^="privilege"] .dx-datagrid-header-panel, div[id^="standard"] .dx-datagrid-header-panel {
+    padding: 0;
+    background-color: #5514b4;
+}
+
+div[id^="privilege"] .dx-datagrid-header-panel .dx-toolbar, div[id^="standard"] .dx-datagrid-header-panel .dx-toolbar {
+    margin: 0;
+    padding-right: 20px;
+    background-color: transparent;
+}
+
+div[id^="privilege"] .dx-datagrid-header-panel .dx-toolbar-items-container, div[id^="standard"] .dx-datagrid-header-panel .dx-toolbar-items-container {
+    height: 70px;
+}
+
+div[id^="privilege"] .dx-datagrid-header-panel .dx-toolbar-before .dx-toolbar-item:not(:first-child), div[id^="standard"] .dx-datagrid-header-panel .dx-toolbar-before .dx-toolbar-item:not(:first-child) {
+    background-color: rgba(103, 171, 255, 0.6);
+}
+
+div[id^="privilege"] .dx-datagrid-header-panel .dx-toolbar-before .dx-toolbar-item:last-child, div[id^="standard"] .dx-datagrid-header-panel .dx-toolbar-before .dx-toolbar-item:last-child {
+    padding-right: 10px;
+}
+
+div[id^="privilege"] .dx-datagrid-header-panel .dx-selectbox, div[id^="standard"] .dx-datagrid-header-panel .dx-selectbox {
+    margin: 17px 10px;
+}
+
+div[id^="privilege"] .dx-datagrid-header-panel .dx-button, div[id^="standard"] .dx-datagrid-header-panel .dx-button {
+    margin: 17px 0;
+}
+
+div[id^="privilege"] .informer, div[id^="standard"] .informer {
+    height: 70px;
+    width: 130px;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel {
+    width: 100%;
+}
+
+div[id^="privilege"] .count, div[id^="standard"] .count {
+    padding-top: 15px;
+    line-height: 27px;
+    margin: 0;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+[id^='dx-col'] {
+    background: #5514b4;
+    color: white;
+}
+
+.dx-datagrid-revert-tooltip {
+    display: none;
+}
+
+.myApps-Description {
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(51, 102, 153, 1);
+    color: white;
+    font-size: 16px !important;
+}
+
+.myApps-Milestones {
+    padding: 10px 20px 10px 20px;
+    background-color: #ddd6e7;
+    color: black;
+    font-size: 12px !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+[aria-label="Select all"] {
+    background: #5514b4 !important;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.carousel {
+    margin: 0;
+    background: #f2f2f2ab;
+}
+
+.carousel .item {
+    text-align: center;
+    overflow: hidden;
+    height: 60%;
+}
+
+.carousel .item img {
+    height: 230px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.carousel .carousel-control {
+    width: 50px;
+    height: 50px;
+    background: #000;
+    margin: auto 0;
+    opacity: 0.8;
+}
+
+.carousel .carousel-control:hover {
+    opacity: 0.9;
+}
+
+.carousel .carousel-control i {
+    font-size: 41px;
+    margin-top: 3px;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+
+.carousel-caption h2 {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 5px 5px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    background: #5514b4;
+    padding: 5px 5px;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 25% !important;
+    bottom: 0px !important;
+    left: 25% !important;
+    z-index: 10;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.carousel-indicators li.active {
+    background: #20b0b9;
+    border-color: #20b0b9;
+}
+
+.carousel .nav {
+    background: rgba(222, 226, 230, 1);
+}
+
+.carousel .nav a {
+    color: #333;
+    border-radius: 0;
+    font-size: 85%;
+    padding: 10px 10px !important;
+    background: transparent;
+}
+
+.carousel .nav .nav-item.active a {
+    color: #fff;
+    background: #5514b4;
+}
+
+.carousel .nav strong {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+.nav-justified .nav-item {
+    border-left: 1px solid #80808021 !important;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    width: 100% !important;
+    border-radius: 5px;
+    margin: 5px 5px 5px 0px;
+    font-size: smaller;
+}
+
+/* class applies to select element itself, not a wrapper element */
+.select-css {
+    display: block;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 100%;
+    max-width: 100%;
+    /* useful when width is set to anything other than 100% */
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
+    for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+    
+  */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+        linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right .7em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .65em auto, 100%;
+}
+
+/* Hide arrow icon in IE browsers */
+.select-css::-ms-expand {
+    display: none;
+}
+
+/* Hover style */
+.select-css:hover {
+    border-color: #888;
+}
+
+/* Focus style */
+.select-css:focus {
+    border-color: #aaa;
+    /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    outline: none;
+}
+
+/* Set options to normal weight */
+.select-css option {
+    font-weight: normal;
+}
+
+/* Support for rtl text, explicit support for Arabic and Hebrew */
+*[dir="rtl"] .select-css,
+:root:lang(ar) .select-css,
+:root:lang(iw) .select-css {
+    background-position: left .7em top 50%, 0 0;
+    padding: .6em .8em .5em 1.4em;
+}
+
+/* Disabled styles */
+.select-css:disabled,
+.select-css[aria-disabled=true] {
+    color: graytext;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+        linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+}
+
+.select-css:disabled:hover,
+.select-css[aria-disabled=true] {
+    border-color: #aaa;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.active{
+    color: white !important;
+    background-color: #5514b4 !important;
+    border-color: #dee2e6 #dee2e6 #fff !important;
+    border: 0px !important;
+    border-radius: 25px 25px 0px 0px !important;
+}
+.nav-tabs .nav-item{
+    color: black !important;
+    background-color: darkgrey !important;
+    border-color: #dee2e6 #dee2e6 #fff !important;
+    border: 0px !important;
+    border-radius: 25px 25px 0px 0px !important;
+}
+.btn.disabled, .btn:disabled {
+    cursor: not-allowed !important;
+}
+.dx-datagrid-table.dx-datagrid-table-fixed.dx-pointer-events-none {
+    height: 100% !important;
+}
